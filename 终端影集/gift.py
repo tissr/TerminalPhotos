@@ -1,30 +1,3 @@
-# TerminalPhotos
-一个在终端显示的影集, 创意终端影集
-# 左侧效果图：
-> ![](http://upload-images.jianshu.io/upload_images/3203841-2b6099af7e5daa8f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-> ![](http://upload-images.jianshu.io/upload_images/3203841-1c22658e595080e4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-> ![](http://upload-images.jianshu.io/upload_images/3203841-ff9cb4dae8116c5e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-> ![](http://upload-images.jianshu.io/upload_images/3203841-75f610ec11298fcb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-> ![](http://upload-images.jianshu.io/upload_images/3203841-f00d8b4def05edc5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## 实现思路：
-#### 通过python的PIL库,将彩色转黑白(256种灰度),创建字符集,建立字符集与灰度的映射
-
-> ![动图](http://upload-images.jianshu.io/upload_images/3203841-e9c729e576445885.gif?imageMogr2/auto-orient/strip)
-
-
-## 把照片裁成1:1的比例,保证显示比例正常，通过定时刷新，模拟一个动感影集
-
-
-## 源码
-```python
 from PIL import Image
 import os
 import time
@@ -79,7 +52,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-> 文章涉及到的资源我会通过百度网盘分享，为便于管理,资源整合到一张独立的帖子，链接如下:
-http://www.jianshu.com/p/4f28e1ae08b1
